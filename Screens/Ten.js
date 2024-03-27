@@ -28,6 +28,7 @@ export default function Ten() {
         <Image style={styles.image} source={require("./Ten.png")} />
         <Text style={styles.titleText}>Battleship New Jersey</Text>
         <Text style={styles.text}>Museum and Memorial</Text>
+        <Text style={styles.address}>100 Clinton St, Camden, NJ 08103</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

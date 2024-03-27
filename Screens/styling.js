@@ -67,13 +67,27 @@ export const styles = StyleSheet.create({
     textAlign: "left",
     height: 1000,
     color: "#374930",
+    fontFamily: "Lato_400Regular",
+    // fontStyle: "italic",
+  },
+
+  address: {
+    fontFamily: "Inter_300Light",
+    paddingLeft: 21,
+    // paddingBottom: 5,
+    paddingTop: 2,
+    // padding: 10,
+    fontSize: 15,
+    textAlign: "left",
+    // height: 20,
+    color: "#374930",
   },
 
   bottom: {
     position: "absolute",
     paddingTop: 10,
     width: "100%",
-    height: "8%",
+    height: "6%",
     backgroundColor: "#FFFFFF",
     bottom: 0,
     flexDirection: "row",

@@ -27,6 +27,11 @@ export default function Seven() {
         <Image style={styles.image} source={require("./Seven.png")} />
         <Text style={styles.titleText}>Six Flags Great Adventure</Text>
         <Text style={styles.text}>Theme Park</Text>
+
+        <Text style={styles.address}>
+          1 Six Flags Blvd, Jackson Township, NJ 08527
+        </Text>
+
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

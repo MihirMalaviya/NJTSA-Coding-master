@@ -28,6 +28,7 @@ export default function Five() {
         <Image style={styles.image} source={require("./Five.png")} />
         <Text style={styles.titleText}>Delaware Water Gap</Text>
         <Text style={styles.text}>National Recreation Area</Text>
+        <Text style={styles.address}>1978 River Road, Bushkill, PA 18324</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

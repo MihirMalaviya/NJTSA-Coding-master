@@ -27,6 +27,10 @@ export default function Four() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Four.png")} />
         <Text style={styles.titleText}>Liberty State Park</Text>
+        <Text style={styles.address}>
+          1 Audrey Zapp Dr, Jersey City, NJ 07305
+        </Text>
+
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

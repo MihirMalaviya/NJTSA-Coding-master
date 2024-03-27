@@ -26,6 +26,9 @@ export default function One() {
           <Image style={styles.image} source={require("./One.png")} />
           <Text style={styles.titleText}>Atlantic City Boardwalk</Text>
           <View style={styles.line}></View>
+          <Text style={styles.address}>
+            2301 Boardwalk, Atlantic City, NJ 08401
+          </Text>
           <View style={styles.box}>
             <Text style={styles.subText}>
               The iconic Atlantic City Boardwalk stretches along the Jersey

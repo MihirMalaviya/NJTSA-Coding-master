@@ -27,6 +27,8 @@ export default function Three() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Three.png")} />
         <Text style={styles.titleText}>Cape May</Text>
+        <Text style={styles.address}>Cape May, NJ 08204</Text>
+
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

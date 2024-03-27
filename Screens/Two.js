@@ -28,6 +28,7 @@ export default function Two() {
         <Image style={styles.image} source={require("./Two.png")} />
         <Text style={styles.titleText}>Princeton University</Text>
         <Text style={styles.text}>Ivy League Institution</Text>
+        <Text style={styles.address}>Princeton, NJ 08544</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

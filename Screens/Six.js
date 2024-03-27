@@ -26,6 +26,10 @@ export default function Six() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Six.png")} />
         <Text style={styles.titleText}>Grounds For Sculpture</Text>
+        <Text style={styles.address}>
+          80 Sculptors Way, Hamilton Township, NJ 08619
+        </Text>
+
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

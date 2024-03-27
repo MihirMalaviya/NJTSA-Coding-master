@@ -28,6 +28,8 @@ export default function Eight() {
         <Image style={styles.image} source={require("./Eight.png")} />
         <Text style={styles.titleText}>Thomas Edison</Text>
         <Text style={styles.text}>National Historical Park</Text>
+
+        <Text style={styles.address}>211 Main St, West Orange, NJ 07052</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

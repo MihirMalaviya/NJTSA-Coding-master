@@ -27,6 +27,9 @@ export default function Nine() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Nine.png")} />
         <Text style={styles.titleText}>Cape May County Park & Zoo</Text>
+        <Text style={styles.address}>
+          707 North, Cape May Court House, NJ 08210
+        </Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

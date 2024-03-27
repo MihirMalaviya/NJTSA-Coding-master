@@ -3,6 +3,7 @@ import {
   useFonts,
   Inter_500Medium,
   Inter_800ExtraBold,
+  Inter_700Bold,
 } from "@expo-google-fonts/inter";
 import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
@@ -23,6 +24,7 @@ export default function HomeScreen() {
 
   let [fontsLoaded] = useFonts({
     Inter_800ExtraBold,
+    Inter_700Bold,
   });
   // useFonts({
   //   Inter_800ExtraBold,

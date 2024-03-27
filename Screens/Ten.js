@@ -27,7 +27,7 @@ export default function Ten() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Ten.png")} />
         <Text style={styles.titleText}>Battleship New Jersey</Text>
-        {/* <Text style={styles.Text}>Museum and Memorial</Text> */}
+        <Text style={styles.text}>Museum and Memorial</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

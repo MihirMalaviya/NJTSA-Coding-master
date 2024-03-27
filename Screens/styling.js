@@ -13,30 +13,32 @@ export const styles = StyleSheet.create({
 
   image: {
     width: "100%",
-    height: "55%",
+    height: "50%",
     borderRadius: 10,
   },
 
   titleText: {
     paddingLeft: 20,
-    paddingTop: 20,
+    paddingTop: 0,
 
     marginTop: 30,
-    paddingBottom: 10,
+    // paddingBottom: 10,
     fontFamily: "Inter_800ExtraBold",
-    fontSize: 28,
+    fontSize: 25,
     textAlign: "left",
-    color: "#28441eff",
+    color: "#28441e",
+    width: "90%",
   },
-
   text: {
-    paddingLeft: 10,
-    paddingTop: 20,
-    paddingBottom: 20,
-    fontFamily: "Inter_800ExtraBold",
-    fontSize: 32,
+    paddingLeft: 21,
+    // paddingTop: 20,
+
+    // marginTop: 30,
+    paddingBottom: 10,
+    fontFamily: "Inter_700Bold",
+    fontSize: 20,
     textAlign: "left",
-    color: "#374930",
+    color: "#236d2d",
   },
 
   line: {
@@ -49,7 +51,7 @@ export const styles = StyleSheet.create({
   },
 
   box: {
-    width: "90%",
+    width: "90.18%",
     height: "25%",
     // backgroundColor: "#F5F5F5",
     marginTop: 10,
@@ -63,7 +65,7 @@ export const styles = StyleSheet.create({
     // padding: 10,
     fontSize: 15,
     textAlign: "left",
-    height: 1200,
+    height: 1000,
     color: "#374930",
   },
 

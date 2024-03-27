@@ -26,6 +26,7 @@ export default function Seven() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Seven.png")} />
         <Text style={styles.titleText}>Six Flags Great Adventure</Text>
+        <Text style={styles.text}>Theme Park</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

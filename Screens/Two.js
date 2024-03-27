@@ -27,6 +27,7 @@ export default function Two() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Two.png")} />
         <Text style={styles.titleText}>Princeton University</Text>
+        <Text style={styles.text}>Ivy League Institution</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>

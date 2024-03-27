@@ -27,7 +27,7 @@ export default function Eight() {
       <ScrollView style={styles.scrollView}>
         <Image style={styles.image} source={require("./Eight.png")} />
         <Text style={styles.titleText}>Thomas Edison</Text>
-        <Text style={styles.Text}>National Historical Park</Text>
+        <Text style={styles.text}>National Historical Park</Text>
         <View style={styles.line}></View>
         <View style={styles.box}>
           <Text style={styles.subText}>
